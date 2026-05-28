@@ -10,9 +10,12 @@ Scaffold the minimal per-repo configuration that the skills assume. This is a
 prompt-driven skill, not a deterministic script: explore, present what you
 found, confirm with the user, then write.
 
-Right now the only shipped skill (`writing-skills`) needs no per-repo config, so
-this setup is intentionally light. As skills that require repo-level
-configuration are added, extend this skill to capture that config here.
+The skills themselves are linked into `~/.claude/skills/` from the source repo
+(see the repo README for the clone + junction/symlink install). This setup skill
+only records the per-repo `## Agent skills` block below; it does not install or
+copy skill files. Most shipped skills need no per-repo config, so this setup is
+intentionally light. As skills that require repo-level configuration are added,
+extend this skill to capture that config here.
 
 ## Process
 
@@ -53,6 +56,8 @@ The block:
 This repo uses [lebrunthibault's skills](https://github.com/lebrunthibault/skills).
 
 - `writing-skills` — create new agent skills with proper structure and progressive disclosure.
+- `commit` — bump version, commit, and push in a clean OSS-friendly way.
+- `research-wiki` — read/search/contribute to the personal Obsidian research wiki.
 ```
 
 ### 4. Done

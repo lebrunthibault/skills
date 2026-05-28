@@ -3,6 +3,7 @@
   "skills": [
     "./skills/writing-skills",
     "./skills/setup-lebrunthibault-skills",
-    "./skills/research-wiki"
+    "./skills/research-wiki",
+    "./skills/commit"
   ]
 }
