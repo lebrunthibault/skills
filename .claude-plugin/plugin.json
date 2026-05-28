@@ -2,6 +2,7 @@
   "name": "lebrunthibault-skills",
   "skills": [
     "./skills/writing-skills",
-    "./skills/setup-lebrunthibault-skills"
+    "./skills/setup-lebrunthibault-skills",
+    "./skills/research-wiki"
   ]
 }

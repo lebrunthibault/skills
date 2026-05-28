@@ -22,3 +22,4 @@ npx skills@latest add lebrunthibault/skills
 
 - **[writing-skills](./skills/writing-skills/SKILL.md)** — Create new agent skills with proper structure, progressive disclosure, and bundled resources.
 - **[setup-lebrunthibault-skills](./skills/setup-lebrunthibault-skills/SKILL.md)** — Run once per repo to record an `## Agent skills` block so the skills know this repo's conventions.
+- **[research-wiki](./skills/research-wiki/SKILL.md)** — Read, search, and contribute to your personal Obsidian research wiki (LLM-maintained, Karpathy pattern) from any repo.
