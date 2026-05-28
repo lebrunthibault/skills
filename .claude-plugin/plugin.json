@@ -1,0 +1,7 @@
+{
+  "name": "lebrunthibault-skills",
+  "skills": [
+    "./skills/writing-skills",
+    "./skills/setup-lebrunthibault-skills"
+  ]
+}
